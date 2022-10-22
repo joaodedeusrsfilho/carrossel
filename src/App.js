@@ -25,6 +25,9 @@ export default function App(){
 
   return (
     <div className='app'>
+      <div className='textoPrincipal'>
+        <h1>Página carrossel de imagens</h1>
+      </div>
       <motion.div ref={carrossel} className='carrossel' whileTap={{cursor: "grabbing"}}>
         <motion.div className='inner' 
         drag="x" dragConstraints={{right:0, left: -width}}
