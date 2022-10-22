@@ -1,0 +1,34 @@
+.app{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+ margin: 0 auto;
+ width: 100%;
+ max-width: 700px;/*largura maxima para exibir imagens*/
+ 
+}
+.inner{
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}
+
+.imagem{
+  min-width: 200px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.imagem img{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  pointer-events: none;
+  
+}
+
+.carrossel{
+  cursor: grab;
+  overflow: hidden;/*para esconder imagens que passar da max-width*/
+  background-color: red;
+}
