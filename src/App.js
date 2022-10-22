@@ -27,7 +27,7 @@ export default function App(){
     <div className='app'>
       <motion.div ref={carrossel} className='carrossel' whileTap={{cursor: "grabbing"}}>
         <motion.div className='inner' 
-        drag="x" dragConstraints={{right:0, left: 0}}
+        drag="x" dragConstraints={{right:0, left: -width}}
         initial={{x: 100}}
         animate={{x:0}}
         transition={{duration:0.5}}  >
