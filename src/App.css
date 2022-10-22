@@ -30,5 +30,5 @@
 .carrossel{
   cursor: grab;
   overflow: hidden;/*para esconder imagens que passar da max-width*/
-  background-color: red;
+  background-color: black;
 }
