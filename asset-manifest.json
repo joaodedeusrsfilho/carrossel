@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/carrossel/static/css/main.e81022bb.css",
+    "main.js": "/carrossel/static/js/main.836fbee9.js",
+    "static/media/03.jpg": "/carrossel/static/media/03.06fcfe4bdb883484e401.jpg",
+    "static/media/04.jpg": "/carrossel/static/media/04.94270df8523e69baa9de.jpg",
+    "static/media/01.jpg": "/carrossel/static/media/01.bfe9ec309f5f74ee5481.jpg",
+    "static/media/02.jpg": "/carrossel/static/media/02.a7a20f45ac912e66f370.jpg",
+    "index.html": "/carrossel/index.html",
+    "main.e81022bb.css.map": "/carrossel/static/css/main.e81022bb.css.map",
+    "main.836fbee9.js.map": "/carrossel/static/js/main.836fbee9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e81022bb.css",
+    "static/js/main.836fbee9.js"
+  ]
+}
