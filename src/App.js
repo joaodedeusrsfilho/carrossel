@@ -8,6 +8,10 @@ import imagem1 from '../src/imagens/01.jpg';
 import imagem2 from '../src/imagens/02.jpg';
 import imagem3 from '../src/imagens/03.jpg';
 import imagem4 from '../src/imagens/04.jpg';
+
+import '../src/responsividade/responsividade.css'
+
+
 //criando array de imagens
 const imagensArray = [imagem1, imagem2, imagem3, imagem4];
 
@@ -31,7 +35,7 @@ export default function App(){
       <motion.div ref={carrossel} className='carrossel' whileTap={{cursor: "grabbing"}}>
         <motion.div className='inner' 
         drag="x" dragConstraints={{right:0, left: -width}}
-        initial={{x: 100}}
+        initial={{x: 0}}
         animate={{x:0}}
         transition={{duration:0.5}}  >
 
