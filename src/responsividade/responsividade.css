@@ -1,29 +1,26 @@
 /*480px - 768px = smartphone and tablet*/
-@media (min-width: 200px) and (max-width: 600px){
-    .textoPrincipal h1{
-        color: aqua;
-        font-size: 14px;
+@media (min-width: 200px) and (max-width: 767px){
+  
+    .carrossel{
+        width: 200px;
+
     }
-    .inner{
-        width: 100%;
-        flex-wrap: wrap;
+    .carrosselImagem img{
+        width: 200px;
+    }
+    .carrosselQuadroDeFotos{
+        width: 200px;
     }
 }
-/*laptops*/
+/*laptops
 @media (min-width: 768px){
-    .textoPrincipal h1{
-        color: aqua;
-    }
+    
 }
-/*1024px desktop*/
+1024px desktop
 @media (min-width: 1024px){
-    .textoPrincipal h1{
-        color: aqua;
-    }
+    
 }
-/*maiores que 1200px, tvs*/
+maiores que 1200px, tvs
 @media (min-width: 1200px){
-    .textoPrincipal h1{
-        color: aqua;
-    }
-}
+    
+}*/

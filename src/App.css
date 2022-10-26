@@ -1,44 +1,39 @@
 .app{
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- min-height: 100vh;
- margin: 0 auto;
- width: 100%;
- max-width: 700px;/*largura maxima para exibir imagens*/
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  max-height: 300px;
+  max-width: 900px;/*largura maxima para exibir imagens*/
   
 }
 
-.textoPrincipal h1{
-  color: aqua;
-  font-size: 26px;
-}
-
-.inner{
+.carrosselQuadroDeFotos{
   display: flex;
   background-color: rgb(0, 0, 0);
+  
 }
 
-.imagem{
-  min-width: 100px;
-  min-height: 100px;
+.carrosselImagem{
+  min-height: 200px;
+  min-width: 200px;
   padding: 10px;
 }
 
-.imagem img{
+.carrosselImagem img{
   width: 100%;
-  height: 100%;
+  height: 90%;
   border-radius: 12px;
   pointer-events: none;
   
 }
 
 .carrossel{
-  cursor: grab;
+  cursor: grab;/*para mostrar a mãozinha no mouse*/
   overflow: hidden;/*para esconder imagens que passar da max-width*/
-  background-color: rgb(0, 0, 0);
   
-  
-  
+    
 }
