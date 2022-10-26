@@ -29,6 +29,8 @@ export default function App(){
   },[])
 
   return (
+    <div>
+    <div className='divTextoH1'>Efeito carrossel</div>
     <div className='app'>
       <motion.div ref={carrossel} className='carrossel' whileTap={{cursor: "grabbing"}}>
         <motion.div className='carrosselQuadroDeFotos' 
@@ -45,6 +47,7 @@ export default function App(){
 
         </motion.div>
       </motion.div>
+    </div>
     </div>
   )
 }
