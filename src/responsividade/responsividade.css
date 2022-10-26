@@ -1,16 +1,9 @@
 /*480px - 768px = smartphone and tablet*/
 @media (min-width: 200px) and (max-width: 767px){
-  
-    .carrossel{
-        width: 200px;
-
+    .app{
+        max-width: 200px;
     }
-    .carrosselImagem img{
-        width: 200px;
-    }
-    .carrosselQuadroDeFotos{
-        width: 200px;
-    }
+   
 }
 /*laptops
 @media (min-width: 768px){
